@@ -12,8 +12,10 @@
   .card { background:var(--card); border-radius:20px; padding:40px; box-shadow:0 20px 60px rgba(0,0,0,.25); }
   .logo { width:96px; height:96px; border-radius:22px; display:block; margin:0 auto 20px; }
   h1 { text-align:center; margin:0 0 8px; font-size:32px; }
-  .sub { text-align:center; color:var(--muted); margin:0 0 28px; }
+  h2 { font-size:19px; margin:28px 0 8px; color:var(--accent); }
+  .sub { text-align:center; color:var(--muted); margin:0 0 8px; }
   p { line-height:1.6; color:#333; }
+  ul { line-height:1.7; color:#333; padding-left:22px; }
   .links { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:28px; }
   .links a { text-decoration:none; color:#fff; background:var(--accent); padding:10px 18px; border-radius:10px; font-size:14px; }
   footer { text-align:center; color:rgba(255,255,255,.7); margin-top:28px; font-size:13px; }
@@ -24,9 +26,19 @@
     <div class="card">
       <img class="logo" src="logo.png" alt="Numa">
       <h1>Numa</h1>
-      <p class="sub">Assistente personale per la produttività</p>
-      <p>Numa è un assistente personale privato che aiuta il proprietario a gestire posta, calendario, note e documenti. L'applicazione si integra con i servizi Google (Gmail, Calendar, Drive, Contatti, Fogli e Documenti) esclusivamente per conto del proprietario dell'account e per uso personale.</p>
-      <p>Non raccogliamo, vendiamo o condividiamo dati con terze parti. L'accesso ai dati Google avviene solo per fornire le funzionalità richieste dall'utente.</p>
+      <p class="sub">Assistente personale privato per la gestione di posta, calendario e documenti</p>
+      <h2>Che cos'è Numa</h2>
+      <p><strong>Numa</strong> è un'applicazione di assistente personale che aiuta il proprietario dell'account a organizzare la propria giornata di lavoro. Numa legge e riepiloga le email, gestisce gli appuntamenti in calendario, ritrova e archivia documenti e file, e prende nota di attività e promemoria — tutto tramite un'unica interfaccia conversazionale.</p>
+      <h2>Che cosa fa Numa con i servizi Google</h2>
+      <p>Per svolgere questi compiti, Numa si collega ai servizi Google del proprietario dell'account. Ecco a cosa serve ciascun accesso:</p>
+      <ul>
+        <li><strong>Gmail</strong> — legge, riepiloga e aiuta a scrivere le email dell'utente</li>
+        <li><strong>Google Calendar</strong> — consulta gli appuntamenti e crea nuovi eventi</li>
+        <li><strong>Google Drive</strong> — ritrova, apre e archivia i documenti dell'utente</li>
+        <li><strong>Google Contatti</strong> — recupera i recapiti per email e inviti</li>
+        <li><strong>Google Fogli e Documenti</strong> — legge e aggiorna fogli di calcolo e documenti di lavoro</li>
+      </ul>
+      <p>Numa è uno strumento a uso strettamente personale del proprietario dell'account. Non raccogliamo, vendiamo o condividiamo dati con terze parti. L'accesso ai dati Google avviene esclusivamente per fornire le funzionalità richieste dall'utente.</p>
       <div class="links">
         <a href="privacy.html">Informativa sulla privacy</a>
         <a href="terms.html">Termini di servizio</a>
